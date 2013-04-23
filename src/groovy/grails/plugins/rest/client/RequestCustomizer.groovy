@@ -43,7 +43,7 @@ class RequestCustomizer {
         return this
     }
 
-    RequestCustomizer header(String name, String value) {
+    RequestCustomizer headers(String name, String value) {
         headers[name] = value
         return this
     }
